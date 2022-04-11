@@ -9,7 +9,7 @@
   "vue": {
     "pwa": {
       "name": "GiFsea",
-      "themeColor": "#444444",
+      "themeColor": "#ff8c32",
       "appleMobileWebAppCapable": "yes",
       "appleMobileWebAppStatusBarStyle": "black-translucent"
     }
