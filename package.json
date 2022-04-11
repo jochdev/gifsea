@@ -1,18 +1,10 @@
 {
-  "name": "gifsea",
+  "name": "gifsea-pwa",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
-  },
-  "vue": {
-    "pwa": {
-      "name": "GiFsea",
-      "themeColor": "#ff8c32",
-      "appleMobileWebAppCapable": "yes",
-      "appleMobileWebAppStatusBarStyle": "black-translucent"
-    }
   },
   "dependencies": {
     "axios": "^0.26.1",
