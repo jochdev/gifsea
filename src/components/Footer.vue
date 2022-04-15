@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container fpage">
     <footer class="d-flex flex-wrap justify-content-center align-items-center">
       <p class="mb-0 text-muted">
         &copy; {{ year }} Gifsea, by

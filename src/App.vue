@@ -53,6 +53,8 @@ a {
 a:hover {
   color: #ff8c32;
 }
+
+
 </style>
 <script>
 import Footer from "./components/Footer.vue";

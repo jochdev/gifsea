@@ -53,6 +53,10 @@ export default {
   created() {
     this.getGifs();
   },
+  
+   mounted() {
+    document.title = "Encuentra tu STICKER favorito"
+  },
   methods: {
     async getGifs(search = "moon knight") {
       const key = "1n2qIc3Oz9di4cLOf0B5RMPjNLOXju5a";

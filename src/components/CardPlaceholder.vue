@@ -30,7 +30,7 @@
   width: 320px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
-  background-color: white;
+  background-color: #EEEEEE;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
