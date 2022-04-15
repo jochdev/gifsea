@@ -5,6 +5,7 @@ module.exports = defineConfig({
     name: "Gifsea",
     short_name:"Gifsea",
     themeColor: "#ff8c32",
+    msTileColor: '#FFFFFF',
     appleMobileWebAppCapable: "yes",
     appleMobileWebAppStatusBarStyle: "black-translucent",
     manifestOptions: {
