@@ -1,19 +1,21 @@
 <template>
-  <div class="container">
-    <div class="vh-100 row justify-content-center align-items-center">
-      <div class="col-md-12 text-center">
-        <h1 class="f900 titulo mb-3">
-          Tus mejores
-          <span class="color-secundadrio"> <animar-texto /></span>
-        </h1>
+  <main class="flex-shrink-0 reducir">
+    <div class="container">
+      <div class="vh-100 row justify-content-center align-items-center">
+        <div class="col-md-12 text-center">
+          <h1 class="f900 titulo mb-3">
+            Tus mejores
+            <span class="color-secundadrio"> <animar-texto /></span>
+          </h1>
 
-        <p>
-        ¡Los encontraras f&aacute;cilmente
-          <router-link to="/gifs">aqu&iacute;!</router-link>
-        </p>
+          <p>
+            ¡Los encontraras f&aacute;cilmente
+            <router-link to="/gifs">aqu&iacute;!</router-link>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <style scoped>
@@ -22,16 +24,17 @@
   padding: 10px 30px;
 }
 
-.vh-100 {
-  height: 75vh !important;
+main > .container {
+  padding: 60px 15px 0;
 }
-</style>
 
-<style>
-.fpage {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
+.reducir {
+  margin-top: -140px;
+}
+
+
+.vh-100{
+  height: 90vh !important;
 }
 </style>
 
