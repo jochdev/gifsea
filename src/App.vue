@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <main><router-view /></main>
-    <footer><Footer /></footer>
+    <router-view />
+    <Footer />
   </div>
 </template>
 
@@ -53,14 +53,13 @@ a {
 a:hover {
   color: #ff8c32;
 }
-
-
 </style>
+
+
 <script>
 import Footer from "./components/Footer.vue";
 import Header from "./components/Header.vue";
 export default {
   components: { Header, Footer },
-  methods: {},
 };
 </script>
