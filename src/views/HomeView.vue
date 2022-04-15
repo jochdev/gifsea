@@ -10,7 +10,7 @@
 
           <p>
             ¡Los encontraras f&aacute;cilmente
-            <router-link to="/gifs">aqu&iacute;!</router-link>
+            <router-link to="/gifs" class="text-decoration-none">aqu&iacute;!</router-link>
           </p>
         </div>
       </div>
