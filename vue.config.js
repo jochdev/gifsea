@@ -6,7 +6,7 @@ module.exports = defineConfig({
   pwa: {
     name: "Gifsea",
     short_name: "Gifsea",
-    themeColor: "#ffffff",
+    themeColor: "#b91817",
     msTileColor: "#ffffff",
 
     appleMobileWebAppCapable: "yes",
