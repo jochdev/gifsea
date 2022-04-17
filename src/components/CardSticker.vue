@@ -8,11 +8,14 @@
     />
     <h2 class="text-truncate" style="max-width: 280px">{{ data.title }}</h2>
     <div class="container">
-      <file-component :url="data.images.original.webp" :title="data.title" />
+      <file-component
+        :url="data.images.original.webp"
+        :title="data.title"
+        :id="data.id"
+      />
     </div>
   </div>
 </template>
-
 <script>
 import FileComponent from "./FileComponent.vue";
 export default {
@@ -21,10 +24,7 @@ export default {
   },
   props: {
     data: Object,
-  },
-  mounted() {
-    this.data;
-  },
+  }
 };
 </script>
 

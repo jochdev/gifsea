@@ -7,16 +7,16 @@
       class="img-fluid"
     />
     <h2 class="text-truncate" style="max-width: 280px">{{ data.title }}</h2>
-   
+    <!-- <code>{{data}}</code> -->
     <div class="container">
-      <!-- <a  :href="src.images.downsized.url" download>
-        Click this link
-      </a> -->
-      <file-component :url="data.images.downsized.url" :title="data.title" />
+      <file-component
+        :url="data.images.downsized.url"
+        :title="data.title"
+        :id="data.id"
+      />
     </div>
   </div>
 </template>
-
 <script>
 import FileComponent from "./FileComponent.vue";
 export default {
@@ -26,12 +26,8 @@ export default {
   props: {
     data: Object,
   },
-  mounted() {
-    this.data;
-  },
 };
 </script>
-
 <style scoped>
 .card {
   margin: 1em auto;
