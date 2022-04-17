@@ -57,7 +57,7 @@
           Esta etapa es la base del desarrollo web porque define como
           ser&aacute;n los colores, el placeholder de todo el contenido y la
           tipograf&iacute;a; esta &uacute;ltima elegida fue
-          <a href="https://fonts.google.com/specimen/Poppins">Poppins/</a>
+          <a href="https://fonts.google.com/specimen/Poppins">Poppins.</a>
           Usando Illustrator realic&eacute; un logo inspirado en la
           funci&oacute;n principal de Gifsea.
         </p>
@@ -76,10 +76,10 @@
         <h4 class="mt-5">Divide y vencer&aacute;s</h4>
         <p>
           La etapa final del desarrollo es muy curiosa, el t&iacute;tulo de esta
-          secci&oacute;n les dar&aacute; lo describe de la mejor manera, porque
-          cuando se desarrolla con Vue hay que dividir todo el proyecto en
-          partes muy peque&ntilde;as; es necesario agregar librer&iacute;as para
-          el manejo de rutas, animaciones, visualizador de im&aacute;genes
+          secci&oacute;n lo describe de la mejor manera, porque cuando se
+          desarrolla con Vue hay que dividir todo el proyecto en partes muy
+          peque&ntilde;as; es necesario agregar librer&iacute;as para el manejo
+          de rutas, animaciones, visualizador de im&aacute;genes
           est&aacute;ticas, extrayendo as&iacute; las partes que ser&aacute;n
           reactivas para crear los componentes &uacute;tiles de la
           aplicaci&oacute;n.
@@ -92,7 +92,13 @@
           todo funciona y tenga el aspecto visual deseado.
         </p>
 
-        <h4 class="mt-5 ">Todos a Github…</h4>
+        <h4 class="mt-5">-- Update gifsea 2.0, 17/04/2022</h4>
+        <p>
+          Se ha ampliado su funcionalidad, ahora es posible descargar sus Gifs y
+          Stickers.
+        </p>
+
+        <h4 class="mt-5">Todos a Github…</h4>
         <p class="mb-5">
           Visita el repositorio oficial de este proyecto en
           <a target="_blank" href="https://github.com/jochdev/gifsea">Github</a>
@@ -154,11 +160,9 @@ p {
 .smallActive {
   opacity: 1;
 }
-
 </style>
-<style >
+<style>
 .fpage {
-
   margin-bottom: 20px;
 }
 </style>

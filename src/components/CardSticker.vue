@@ -7,12 +7,8 @@
       class="img-fluid"
     />
     <h2 class="text-truncate" style="max-width: 280px">{{ data.title }}</h2>
-   
     <div class="container">
-      <!-- <a  :href="src.images.downsized.url" download>
-        Click this link
-      </a> -->
-      <file-component :url="data.images.downsized.url" :title="data.title" />
+      <file-component :url="data.images.original.webp" :title="data.title" />
     </div>
   </div>
 </template>

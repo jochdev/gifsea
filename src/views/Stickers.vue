@@ -31,7 +31,8 @@
 
     <div class="row" data-masonry='{"percentPosition": true }' v-else>
       <div class="col-sm-6 col-lg-3 con-mb-4" v-for="gif in gifs" :key="gif.id">
-        <card-gif :data="gif" />
+       <card-sticker :data="gif" />
+      
       </div>
     </div>
 
@@ -40,12 +41,12 @@
 </template>
 
 <script>
-import CardGif from "../components/CardGif.vue";
+import CardSticker from "../components/CardSticker.vue";
 import Search from "../components/Search.vue";
 import CardPlaceholder from "../components/CardPlaceholder.vue";
 
 export default {
-  components: { CardGif, Search, CardPlaceholder },
+  components: { CardSticker, Search, CardPlaceholder },
   data: () => ({
     gifs: {},
     load: false,

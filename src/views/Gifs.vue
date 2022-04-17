@@ -34,8 +34,6 @@
         <card-gif :data="gif" />
       </div>
     </div>
-
- 
   </div>
 </template>
 
@@ -53,8 +51,8 @@ export default {
   created() {
     this.getGifs();
   },
-   mounted() {
-    document.title = "Encuentra tu GIF favorito"
+  mounted() {
+    document.title = "Encuentra tu GIF favorito";
   },
   methods: {
     async getGifs(search = "moon knight") {
@@ -65,6 +63,7 @@ export default {
         `https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${key}`
       );
       this.gifs = data.data;
+   
       this.cambiarEstado(false);
     },
     cambiarEstado(valor) {
